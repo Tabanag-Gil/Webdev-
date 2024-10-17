@@ -1,0 +1,215 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;   
+}
+.firstpart {
+    background-color: rgba(216, 11, 11, 0.829);
+    
+}
+.Logo {
+    color: white;
+} 
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    padding-left: 35px;
+    top: 35px;
+    color: white;
+    font-size: 20px;
+    right: 400px;
+}
+.navbar a:hover {
+    color: rgba(14, 12, 12, 0.637);
+}
+.navbar span {
+    font-size: 10px;
+}
+.Watch {
+    position: relative;
+    left: -120px;
+    border: px solid white;
+    border-radius: 25px;
+    padding: 14px 20px;
+    background: white;
+    color: black;
+}
+.Watch:hover {
+    background: rgba(128, 128, 128, 0.788);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.navbar .Watch {
+    color: black;
+}
+.navbar .Vid  {
+    font-size: 25px;   
+    position: relative;
+    right: 3px;
+}
+.Chang {
+    font-size: 100px;
+    margin-left: 500px;
+    color: white;
+}
+.Chang .chan {
+    line-height: 80px;
+    position: relative;
+    right: 50px;
+    
+}
+.Chang span {
+    position: relative;
+    left: 100px;
+}
+.Get {
+    font-size: 25px;
+    margin-top: -50px;
+    line-height: 30px;
+    margin-left: 90px;
+}
+.acc {
+    margin-left: 90px;
+}
+.Chang a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 320px;
+    color: black;
+    border: px solid white;
+    padding: 14px 25px;
+    border-radius: 45px;
+    background: white;
+    position: relative;
+    top: -20px;
+    font-weight: 600;
+}
+.Chang a:hover {
+    background: rgba(128, 128, 128, 0.788);
+    transition: 0.5s;
+}
+.checks {
+    display: flex;
+    margin-left: 580px;
+
+}
+.checks h3 {
+    padding-right: 50px;
+    color: white;
+    font-weight: 100;
+}
+.checks span {
+    background: white;
+    position: relative;
+    right: 10px;
+    font-size: 15px;
+    padding: 5px 7px;
+    border-radius: 50px;
+    color: rgba(255, 0, 0, 0.815);
+}
+.newimg {
+    display: flex;
+    height: 520px;
+    width: 250px;
+    margin-top: 100px;
+    position: relative;
+    top: -20px;
+    left: 400px;
+    
+}
+.newimg img {
+    border-radius: 35px;
+}
+
+.Your {
+    font-weight:100;
+    font-size: 70px;
+    margin-left: 570px;
+    margin-top:170px;
+    
+}
+
+.sp {
+    margin-left: 670px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.pindut {
+    margin-left: 41.5%;
+    margin-top: 50px;
+    
+}
+.pindut a{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 14px 17px;
+    color: black;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.pindut a:hover {
+    background: rgba(223, 25, 25, 0.966);
+    transition: 0.5s;
+}
+.pindut .get {
+    background-color: red;
+    color: white;
+}
+.icons {
+    margin-left: 30px;
+}
+.icons img{
+    border:1px solid rgba(128, 128, 128, 0.637);
+    padding: 15px 15px;
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.icondesc {
+    display: flex;
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+.icondesc h3 {
+    padding-left: 250px;
+}
+.desc1 {
+    margin-left: -5px;
+}
+.desc3 {
+    margin-left: 30px;
+}
+.iconp1 {
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 15%;
+}
+.iconp2 {
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 40%;
+    margin-top: -92px;
+}
+.iconp3 {
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 65%;
+    margin-top: -70px;
+}
+.read {
+    margin-left: 350px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.read a{
+    color: red;
+    text-decoration: none;
+    padding-left:50px;
+}
