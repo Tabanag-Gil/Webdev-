@@ -1,0 +1,426 @@
+body {
+   background-color: rgba(8, 8, 8, 0.966);
+   padding-left: 8%;
+   padding-right: 8%;
+   z-index: -1;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.Logo img {
+    width: 250px;
+    height: 200px;   
+}
+.Header {
+    background : transparent;
+    align-items : center;
+    display : flex;
+    justify-content : space-between;
+}
+.navbar a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.navbar {
+    padding-right: 20px;
+}
+ .navbar a:hover {
+    color: rgb(187, 80, 80);
+ }
+ .Desc {
+    color: white;
+    align-items: center;
+    position: absolute;
+    padding-left: 40%;  
+    text-align: left;
+    bottom: 45%;
+    letter-spacing: 2px;
+    
+  
+ }
+ .Desc h1 {
+    font-size: 80px;
+    position: relative;
+    line-height: 0.5;
+     
+}
+.Desc h3 {
+    position: absolute; 
+    line-height: 1;
+    color: rgb(223, 59, 59);
+}
+.Desc p {
+    line-height: 2.5;
+}
+.Desc a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 18px;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    background: linear-gradient(to right, rgba(158, 8, 8, 0.5), rgba(218, 108, 108, 0.5));
+    color: white;
+    position: absolute;
+    overflow: hidden;
+}
+.Desc a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(177, 8, 8);
+    z-index: -1;
+    transition: 0s;
+    overflow: hidden;
+}
+.Desc a:hover::before {
+    width: 100%;
+}
+.ncard {
+    flex-basis: 100%;
+    color: white;
+    padding-top: 70px;
+    padding-left: 20%;
+}
+.card {
+    width: 350px;
+    height: 370px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 6px ; 
+    transition: 0.7s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding-left: 2.5%;
+    padding-right: 7%;
+}
+
+h5 {
+    padding-top: 1px;
+    font-size: 20px;
+    font-style: oblique;
+
+}
+.ncard a {
+    line-height: 10;
+}
+.ncard p {
+    color: rgb(223, 205, 205);
+    font-weight: 600;
+}
+
+.card1 {
+    background-color: rgb(37, 35, 35);
+}
+.ncard a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+.ncard a:hover {
+    color: rgb(241, 169, 169);
+}
+
+.card2 {
+    background-color: rgba(196, 23, 23, 0.918);
+}
+.card3 {
+    background-color: rgb(37, 35, 35);
+}
+
+.ncard .KM {
+ color: rgb(219, 55, 55);
+}
+.ncard .KM:hover {
+color: rgb(240, 161, 161);
+   }
+.ncard img {
+    padding-top: 20px;
+}
+.exper {
+    display: inline-block;
+    text-align: center;
+    padding-left: 350px;
+}
+.num {
+    padding-top: 220px;
+    color: rgb(196, 41, 35);
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 0.8;
+    padding-right: 50px;
+}
+.exp{
+    color: aliceblue;
+    font-size: 30px; 
+    margin-top: 10px;
+}
+
+.exp-container {
+    flex-basis: 100%;
+    padding-left: 43%;
+    margin-top: -270px;
+    
+}
+
+
+.expert {
+    width: 350px;
+    height: 170px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1px ; 
+    box-shadow: 0 4px 8px ; 
+    padding-left: 2.5%;
+    padding-right: 5%;
+    background-color:  rgb(37, 35, 35);
+    margin-bottom: 17px;  
+    margin-right: 17px;
+}
+.expert p {
+    color: rgb(141, 131, 131);
+    padding-left: 120px;
+    margin-top: -20px;
+    
+}
+.expert h4 {
+    color: rgb(196, 41, 35);
+    font-size:35px;
+    font-weight: 600;
+    padding-left: 120px;
+}
+.expert2 p {
+    padding-left: 90px;
+}
+.expert3 p {
+    padding-left: 85px;
+}
+.expert4 p {
+    padding-left: 90px;
+}
+.FP {
+    color: white;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 10%;
+}
+.FP p {
+    color: gray;
+    margin-top: -70px;
+    font-size: 20px;
+}
+.FP a {
+    margin-left: 77.5%;
+    text-decoration: none;
+    position: relative;
+    top: -70px;
+    color: white;
+    border: 0px solid white;
+    padding: 14px 17px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: linear-gradient(to right,rgba(185, 15, 15, 0.555),rgb(235, 33, 33));
+    
+}
+.FP .VA:hover {
+    background-color:red;
+}
+.project-container {
+    flex-basis: 100%;
+    margin-top: -130px;
+    padding-left: 11.5%;
+
+}
+.project {
+    width: 565px;
+    height: 450px;
+    display: inline-flex;
+    box-sizing: border-box; 
+    box-shadow: 0 4px 8px ; 
+    padding-left: 2.5%;
+    padding-right: 5%;
+    background-color:  rgba(49, 44, 44, 0.562);
+    margin-bottom: 50px;  
+    margin-right: 50px;
+    margin-top: 130px;
+}
+.project-container img {
+    width: 550px;
+    height: 250px;
+    padding-top: 100px;
+    padding-left: 15px;
+}
+.project4 img {
+    width: 460px;
+}
+.one {
+    color:white;
+    margin-top: -660px;
+    margin-left: 1045px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.two {
+    color:white;
+    font-size: 25px;
+    margin-top: -75px;
+    margin-left: 395px;
+    letter-spacing: 2px;
+}
+.three {
+    color: white;
+    font-size: 25px;
+    margin-top: -80px;
+    margin-left: 980px;
+    letter-spacing: 2px;
+}
+.fer {
+    color:white;
+    font-size: 25px;
+    margin-top: 560px;
+    margin-left: 340px;
+    letter-spacing: 2px;
+
+}
+.knowmore {
+    position: absolute;
+}
+.knowmore1 {
+    color:rgb(163, 54, 54);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 980px;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 14px 17px;
+
+    
+}
+.knowmore1:hover {
+    background-color: white;
+}
+
+.knowmore2 {
+    color:rgb(163, 54, 54);
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 360px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 14px 17px;
+}
+.knowmore2:hover {
+    background-color: white;
+}
+.knowmore3 {
+    color: rgb(163, 54, 54);
+    padding-left: 350px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 360px;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 14px 17px;
+ 
+}
+.knowmore3:hover {
+    background-color: white;
+}
+.wtf {
+    text-decoration: none;
+    color: rgb(163, 54, 54);
+    font-size: 20px;
+    margin-left: 980px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 14px 17px;
+    letter-spacing: 2px;
+}
+.wtf:hover {
+    background-color: white;
+}
+.last {
+    color: white;
+    font-size: 30px;
+    margin-top: 10%;
+    background-color: rgba(128, 128, 128, 0.226);
+    padding: 10px 100px;
+}
+.last p {
+    color: rgb(172, 168, 168);
+    font-size: 20px;
+}
+.last a {
+    text-decoration: none;
+    color: white;
+    margin-left: 57%;
+    margin-top: 115px;
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 0px solid white;
+    padding: 14px 55px;
+    background: linear-gradient(to right,rgba(185, 15, 15, 0.555),rgb(235, 33, 33));
+}
+.last a:hover {
+    background-color: red;
+}
+.newnav {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 35%;
+}
+.newnav a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.newnav a:hover {
+    color: rgb(173, 163, 163);
+}
+.icons {
+    display: flex;
+    padding-top: 100px;
+}
+.icons img {
+    height: 85px;
+    width: 85px;
+    padding-left: 100px;
+}
+.icons a {
+    position : relative;
+    display : inline-flex;
+    justify-content : center;
+    align-items : center;
+    width : 40px;
+    height : 40px;
+    background : transparent;
+    border-radius : 50%;
+    font-size : 20px;
+    color :gray;
+    text-decoration : none;
+    z-index : 1;
+}
+.icons .icons1 {
+    padding-left: 550px;
+    padding-top: 26px;
+
+}
+.icons p {
+    color: rgb(104, 102, 102);
+    padding-left: 400px;
+    padding-top: 25px;
+}
+
