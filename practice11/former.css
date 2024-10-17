@@ -1,0 +1,43 @@
+.parent {
+    height: 350px;
+    width: 550px;
+    background-color: blue;
+}
+.child {
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    animation: circle 1s ease-in forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+    
+
+}
+.parent:hover .child {
+
+    animation-play-state: paused;
+
+   
+    
+}
+@keyframes circle {
+    0%{
+        transform: translateX(0);
+        background-color: green;
+    }
+    33%{
+        transform: translateY(100%);
+        background-color: yellow;
+        border-radius: 25%;
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+        border-radius: 50%;
+    }
+    100%{
+        transform: translateX(100%);
+        
+    }
+}
