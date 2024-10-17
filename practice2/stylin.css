@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Header {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    padding : 20px 10%;
+    background : transparent;
+    align-items : center;
+    display : flex;
+    justify-content : space-between;
+    z-index : 100;
+    }
+   
+  .logo {
+    text-decoration: none;
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+
+  .logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#081b29, rgb(3, 56, 38));
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+  }
+  .navbar a {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: all -55s ease;
+    }
+    
+  body {
+    background:linear-gradient(to right,#081b29, rgb(3, 56, 38));
+    height: 100vh;
+    margin: 0;
+  }
+  .navbar a:hover {
+    border-bottom: 2px solid aquamarine;
+    color: aquamarine;
+  }
+   .Home {
+    display: flex;
+    padding-top: 300px;
+    padding-left: 10%;
+    flex-direction: column;
+
+   }
+  .homeCont {
+    max-width: 600px;
+  }
+  .homeCont h1 {
+    font-size: 65px;
+    color: rgb(133, 238, 133);
+  }
+  .homeCont h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#081b29, rgb(3, 56, 38));
+    animation: showRight 2s ease forwards;
+    animation-delay: 1s; 
+  }
+
+  .homeCont h2 {
+    font-size: 34px;
+    color: rgb(166, 231, 166);
+    margin-top: 20px;
+  }
+  .homeCont p {
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(84, 168, 84);
+
+
+  }
+  .Btn-box {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    height: 70px;
+  }
+  .Btn-box a {
+    position: relative;
+    display: inline-flex;
+    width : 200px;
+    height : 100%;
+    background : rgb(3, 56, 38);
+    border :rgb(90, 136, 121) solid 2px ;
+    border-radius : 19px;
+    font-size : 19px;
+    text-decoration : none;
+    color : #d0e2ee;
+    letter-spacing : 1px;
+    justify-content : center;
+    align-items : center;
+    z-index : 1;
+    margin-top: 10px;
+    
+  
+  }
+  .Btn-box a:hover {
+    color: green;
+   }
+   .Btn-box a::before {
+    content : '';
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 0;
+    height : 50px;
+    background : rgb(104, 218, 113);
+    z-index : -1;
+    transition : 0.5s;
+    overflow: hidden;
+    border-radius: 17px;
+    }
+    .Btn-box a:hover:before {
+      width : 100%;
+    }
+
+
+
+  
+
+
+  @keyframes showRight {
+    100%{
+        width: 0;
+        
+    }
+    
+  }
+
+
+    
