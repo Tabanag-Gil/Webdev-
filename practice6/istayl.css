@@ -1,0 +1,128 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Poppins', sans-serif;
+    }
+ .Header {
+  position : fixed;
+  top : 0;
+  left : 0;
+  width : 100%;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+ align-items : center;
+  display : flex;
+  justify-content : space-between;
+  z-index : 100;
+ }
+ .Logo {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 600;   
+}
+
+.Logo span {
+    font-style: italic;
+    font-weight: 100;
+}
+.nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: large;
+
+}
+.nav a:hover {
+    color: bisque;
+}
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.images {
+    display: inline-flex;
+    height: 300px;
+    margin-top: 200px;
+    column-gap: 2rem;
+    padding-left: 70px;
+    
+    
+}
+.img1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.img2:hover {
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+.img3:hover {
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.Visit {
+    padding-top: 50px;
+    justify-content: space-between;
+    display: inline-flex;
+    padding-left: 250px;
+    font-weight: 600;
+    
+}
+.Visit a {
+    text-decoration: none;
+    color: rgb(217, 250, 213); 
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+}
+.Visit a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(8, 8, 8, 0.507);
+    z-index: -1;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+.Visit a:hover::before {
+    width: 100%;
+}
+
+
+.Vis1 {
+    border: 1px solid #bbebc2;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 14px 25px;
+}
+.Vis2 {
+    margin-left: 450px;
+    border: 1px solid #bbebc2;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 14px 25px;
+   
+
+}
+
+.Vis3 {
+    margin-left: 500px;
+    border: 1px solid #bbebc2;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 14px 25px;
+}
