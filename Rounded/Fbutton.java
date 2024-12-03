@@ -85,6 +85,13 @@ public class FButton extends JButton {
 
     public void setFillOriginal(Color fillOriginal) {
         this.fillOriginal = fillOriginal;
+        if (over) {
+                    fill = fillOver;
+                    line = lineOver;
+                } else {
+                    fill = fillOriginal;
+                    line = lineOriginal;
+                }
     }
 
     public Color getFillOver() {
@@ -93,6 +100,13 @@ public class FButton extends JButton {
 
     public void setFillOver(Color fillOver) {
         this.fillOver = fillOver;
+        if (over) {
+                    fill = fillOver;
+                    line = lineOver;
+                } else {
+                    fill = fillOriginal;
+                    line = lineOriginal;
+                }
     }
 
     public Color getFillClick() {
